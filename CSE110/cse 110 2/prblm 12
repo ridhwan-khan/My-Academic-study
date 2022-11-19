@@ -1,0 +1,23 @@
+n= int(input (' enter a number:'))
+m=n
+count=0 
+while m!= 0:
+
+    m=m//10
+    count+=1
+    
+print(count)
+x=10**(count-1)
+c=0
+while(n!=0):
+    
+    res=n//x 
+   
+    n= n%x
+    x=x//10
+    if n!=0:
+        print(res,end=',')
+    else:
+        
+        print(res,end=' ')
+

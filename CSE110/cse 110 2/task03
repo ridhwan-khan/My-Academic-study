@@ -1,0 +1,12 @@
+n=input('string')
+dim=0
+for i in range(len(n)):
+    if (i!=0) or (i!=1):
+        dim+=1
+        
+    else:
+        pass
+if dim>0:
+    print('not binary')
+else:
+    print('Binary')

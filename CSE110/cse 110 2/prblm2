@@ -1,0 +1,8 @@
+#02
+count = 1
+chata = input ('Enter the name of myour favourtite car')
+matha = int (input('Enter a number '))
+while count<= matha : 
+
+    print (chata)
+    count +=1

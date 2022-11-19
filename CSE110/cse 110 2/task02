@@ -1,0 +1,4 @@
+s= input('enter a value:')
+index=int(input('input the index value from where the reverse process will begin:'))
+
+print(s[index: :-1]+s[index+1::])

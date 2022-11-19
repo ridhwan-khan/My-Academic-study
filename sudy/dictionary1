@@ -1,0 +1,5 @@
+count= dict()
+names= ['ridhwan','rafi','amira','ridhwan','ridhwan','amira']
+for name in names:
+    count[name]= count.get(name,0)+1
+print(count)

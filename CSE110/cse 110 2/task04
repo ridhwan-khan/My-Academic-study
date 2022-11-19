@@ -1,0 +1,13 @@
+n=input('enter =')
+new=' '
+
+if len(n) <4:
+    print(n)
+elif len(n)>4:
+    if n[-1:-3:-1]=='re':
+        print(n[:-2:]+'est')
+
+
+else:
+    print(n,'er')
+

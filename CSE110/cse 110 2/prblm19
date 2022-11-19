@@ -1,0 +1,10 @@
+#task 19 
+#n input dibo n ta row pabo
+#row er value amr output proti line er input er range 
+
+N=int(input('number of rows='))
+for i in range (1 ,N+1):    ##1.2
+    for j in range (1,i+1):  ##1.1.2
+        print(j,end='')
+    print()
+    

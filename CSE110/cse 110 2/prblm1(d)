@@ -1,0 +1,12 @@
+#d
+ridhwan = 18
+while ridhwan <= 63 :
+   
+    if ridhwan%2 == 0 : 
+        print (ridhwan,end =',')
+    elif ridhwan==63 : 
+        print (ridhwan*-1, end= '')
+    
+    else:
+        print (ridhwan*-1 , end = ',')
+    ridhwan+= 9 

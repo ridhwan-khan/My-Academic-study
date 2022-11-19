@@ -1,0 +1,31 @@
+# n=100
+# num_choc=n #25 ,6
+# total=n
+# count=0 #25 
+# count2=0
+# while num_choc>=4:
+
+#     if num_choc%4!=0 :
+#         count2+=num_choc%4 
+#     if num_choc//4>0:
+        
+#         num_choc=num_choc//4 
+#         total=total+num_choc
+#             # count+= num_choc 
+ 
+# print(total,end=' ')  
+# #total=n+count+
+
+
+m = 100
+p = 1
+w = 4
+k = 1
+
+choc = m//p
+cw = choc #current wrap
+
+while cw//w != 0:
+    choc = choc + cw//w * k
+    cw = cw//w * k + cw%w
+print(choc)

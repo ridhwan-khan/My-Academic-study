@@ -1,0 +1,13 @@
+#task 11
+
+n= int(input (' enter a number:'))
+count=0 
+while n!= 0:
+    if n<0 :
+        n=n//10*-1
+        count+=1
+    else:
+        n=n//10
+        count+=1
+
+print(count)

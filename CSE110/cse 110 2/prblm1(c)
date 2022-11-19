@@ -1,0 +1,8 @@
+#c 
+ridhwan= 18 
+while ridhwan <= 63 :
+    if ridhwan == 63 :
+        print (ridhwan,end='')
+    else:
+        print(ridhwan,end = ',')
+    ridhwan += 9

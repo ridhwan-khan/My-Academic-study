@@ -1,0 +1,14 @@
+# row = int(input("Enter the square arm value 5: "))
+# # col = int(input("Enter number of columns: "))
+
+# col=row
+# print("Rectangular pattern is: ")
+
+# for i in range(1,row+1):
+#     for j in range(1,col+1): #vetorer loop age run krtese pasapasi outpuut ditese 
+#         print('+', end="") #otput pasapasi print hocche 
+
+#     print() 
+a=int(input('enter a value'))
+for i in range (1,a+1):
+    print('+'*a)
