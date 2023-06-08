@@ -1,0 +1,16 @@
+# # Test 01: Play Right
+# def playRight(sequence,beats):
+#   start = len(sequence)
+  
+#   for i in range(sequence,)
+#   return None
+
+
+
+# sequence=[10,20,30,40,50,60]
+# beats = [1,0,0,1,0,1]
+# playRight(sequence,beats)
+
+for i in range(5):
+    print(i)
+    i+=3
